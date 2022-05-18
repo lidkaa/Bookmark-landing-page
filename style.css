@@ -321,8 +321,11 @@ header {
     margin-bottom: 50px;
 }
 
-.sectionDownload h5 {
+.sectionDownload .add-title {
     margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
     color: var(--black);
 }
 
@@ -356,8 +359,8 @@ header {
 }
 
 .download-card > p {
-    font-size: 12px;
-    padding-bottom: 10px;
+    margin-top: 0px;
+    font-size: 14px;
 }
 
 .download-card > button {

@@ -18,7 +18,7 @@
   <div class="main-container container-column">
     <nav class="main-nav container-row">
       <div>
-        <img src="./images/logo-bookmark.svg">
+        <img src="./images/logo-bookmark.svg" alt="Bookmark logo">
       </div>
       <a href="#" class="navi-img" onclick="showMenuToggle()">
         <img src="./images/icon-hamburger.svg">
@@ -27,7 +27,7 @@
         <li><a href="#">Features</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#"><button class="button-red">Login</button></a></li>
+        <li><button class="button-red">Login</button></li>
       </ul>
     </nav>
 
@@ -35,13 +35,13 @@
       <div class="mobile-navi non-visible">
         <div class="container-row">
           <div class="popup-logo container-column"></div>
-          <img src="./images/icon-close.svg" class="icon-close" onclick="showMenuToggle()"></img>
+          <img src="./images/icon-close.svg" alt="icon close" class="icon-close" onclick="showMenuToggle()"></img>
        </div>
         <ul class="container-column">
         <li><a href="#">Features</a></li>
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a href="#"><button class="button-white">LOGIN</button></a></li>
+          <li><button class="button-white">LOGIN</button></li>
         </ul>
         <div class="container-row popup-img">
           <a href=""><img src="./images/icon-facebook.svg" alt="logo Facebook"></a>
@@ -77,12 +77,15 @@
     
         <nav class="features-nav container-row">
           <ul class="container-row">
-            <li class="active-li features-li" onclick="showFeature('0')">Simple Bookmarking</li>
-            <div class="active-border non-visible"></div>
-            <li class="features-li" onclick="showFeature('1')">Speedy Searching</li>
-            <div class="active-border non-visible"></div>
-            <li class="features-li" onclick="showFeature('2')">Easy Sharing</li>
-            <div class="active-border non-visible"></div>
+            <li class="active-li features-li" onclick="showFeature('0')">Simple Bookmarking
+              <div class="active-border non-visible"></div>
+            </li>
+            <li class="features-li" onclick="showFeature('1')">Speedy Searching
+              <div class="active-border non-visible"></div>
+            </li>
+            <li class="features-li" onclick="showFeature('2')">Easy Sharing
+              <div class="active-border non-visible"></div>
+            </li>
           </ul>
         </nav>
         
@@ -127,24 +130,24 @@
 
         <div class="container-row download-cards">
           <div class="download-card container-column">
-            <img src="./images/logo-chrome.svg" class="download-image">
-            <h5>Add to Chrome</h5>
+            <img src="./images/logo-chrome.svg" alt="Chrome logo" class="download-image">
+            <p class="add-title">Add to Chrome</p>
             <p>Minimum version 62</p>
             <div class="dots"></div>
             <button class="button-blue">Add & Install Extension</button>
           </div>
 
           <div class="download-card container-column">
-            <img src="./images/logo-firefox.svg" class="download-image">
-            <h5>Add to Firefox</h5>
+            <img src="./images/logo-firefox.svg" alt="Firefox logo" class="download-image">
+            <p class="add-title">Add to Firefox</p>
             <p>Minimum version 55</p>
             <div class="dots"></div>
             <button class="button-blue">Add & Install Extension</button>
           </div>
 
           <div class="download-card container-column">
-            <img src="./images/logo-opera.svg" class="download-image">
-            <h5>Add to Opera</h5>
+            <img src="./images/logo-opera.svg" alt="Opera logo" class="download-image">
+            <p class="add-title">Add to Opera</p>
             <p>Minimum version 46</p>
             <div class="dots"></div>
             <button class="button-blue">Add & Install Extension</button>
